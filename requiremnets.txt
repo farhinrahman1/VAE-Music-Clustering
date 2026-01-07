@@ -1,0 +1,7 @@
+tensorflow
+librosa
+scikit-learn
+openai-whisper
+sentence-transformers
+matplotlib
+seaborn
