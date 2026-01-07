@@ -4,7 +4,7 @@
 This project implements an unsupervised learning pipeline using Variational Autoencoders (VAE) and Conditional VAE (CVAE) to cluster music tracks from the GTZAN dataset.
 
 ## File Structure
-- `GTZAN.ipynb`: The main notebook containing the full pipeline (Easy, Medium, and Hard tasks).
+- `VAE_Music_Clustering.ipynb`: The main notebook containing the full pipeline (Easy, Medium, and Hard tasks).
 - `requirements.txt`: List of required Python libraries.
 - `results/`: Folder containing latent space visualizations and reconstruction plots.
 
@@ -15,6 +15,6 @@ This project implements an unsupervised learning pipeline using Variational Auto
 - **Clustering:** Evaluated using K-Means, Agglomerative Clustering, and DBSCAN.
 
 ## How to Run
-1. Upload `GTZAN.ipynb` to Google Colab.
+1. Upload `VAE_Music_Clustering.ipynb` to Google Colab.
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Run all cells to reproduce the results.
