@@ -1,7 +1,24 @@
 # VAE for Music Genre Clustering
 
-## Project Overview
-This project implements an unsupervised learning pipeline using Variational Autoencoders (VAE) and Conditional VAE (CVAE) to cluster music tracks from the GTZAN dataset.
+# VAE-based Music Genre Clustering (Easy, Medium & Hard Tasks)
+
+## Overview
+This project implements an unsupervised learning pipeline using Variational Autoencoders (VAE) and Conditional VAE (CVAE) to cluster music tracks.
+
+## Deliverables
+  - **`VAE_Music_Clustering.ipynb`**: Contains the full implementation including:
+  - **Easy Task**: Basic VAE, K-Means, and PCA comparison.
+  - **Medium Task**: Convolutional VAE, hybrid feature representation with lyrics, and DBSCAN.
+  - **Hard Task**: Conditional VAE (CVAE), NMI/Purity metrics, and reconstruction plots.
+- **`requirements.txt`**: List of dependencies.
+
+## Instructions
+1. Open the `VAE_Music_Clustering.ipynb` file in Google Colab.
+2. Ensure the T4 GPU is enabled.
+3. Run the cells sequentially to reproduce the results.
+
+## Note on Data
+Per instructor convenience, only English tracks (GTZAN dataset) were used. OpenAI Whisper was used to generate lyrics for the hybrid representation task.
 
 ## File Structure
 - `VAE_Music_Clustering.ipynb`: The main notebook containing the full pipeline (Easy, Medium, and Hard tasks).
