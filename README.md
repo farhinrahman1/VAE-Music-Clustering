@@ -1,7 +1,5 @@
 # VAE for Music Genre Clustering
 
-# VAE-based Music Genre Clustering (Easy, Medium & Hard Tasks)
-
 ## Overview
 This project implements an unsupervised learning pipeline using Variational Autoencoders (VAE) and Conditional VAE (CVAE) to cluster music tracks.
 
